@@ -1,0 +1,56 @@
+strategie :
+course a pied 
+trail - course - rando 
+
+meme action 
+abs facotry :
+pour moi c'est une fabrique de fabriue 
+
+ factory: s crée objet 
+ on veut crée une compétition en fonction de sont type , 
+ ca va nou
+
+ observer: 
+ ici on a , enregistrement de la donnée on a une notif 
+ 
+ state:
+systeme de machien a état par exemple pour les progrés 
+ 
+ decorateur:
+ histoire des poupé russe pour ajouter des stats par exemple a notre objet 
+
+singloton: 
+le singloton permet de renddre uniquer les instance de classe
+
+
+S - Single Responsibility Principle (SRP) : Principe de responsabilité unique
+
+    Définition : Une classe ou un module ne doit avoir qu'une seule raison de changer, c'est-à-dire qu'elle ne doit être responsable que d'une seule tâche ou fonctionnalité.
+    Objectif : Cela facilite la compréhension du code et le rend plus facile à maintenir et à tester, car chaque classe a un rôle bien défini.
+
+O - Open/Closed Principle (OCP) : Principe ouvert/fermé
+
+    Définition : Une entité (classe, module, fonction, etc.) doit être ouverte à l'extension, mais fermée à la modification.
+    Objectif : Le but est de permettre l'ajout de nouvelles fonctionnalités sans changer le code existant, minimisant ainsi le risque d'introduire des bogues.
+
+L - Liskov Substitution Principle (LSP) : Principe de substitution de Liskov
+
+    Définition : Les objets d'une classe dérivée doivent pouvoir être substitués par des objets de la classe de base sans affecter le bon fonctionnement du programme.
+    Objectif : Cela garantit que les sous-classes respectent l'interface et le comportement de la classe parente, évitant les comportements inattendus.
+
+I - Interface Segregation Principle (ISP) : Principe de ségrégation des interfaces
+
+    Définition : Il est préférable d'avoir plusieurs interfaces spécifiques à des clients plutôt qu'une seule interface générale.
+    Objectif : Cela permet aux classes de ne dépendre que des méthodes dont elles ont réellement besoin, réduisant les dépendances inutiles et évitant des implémentations inutilisées.
+
+D - Dependency Inversion Principle (DIP) : Principe d'inversion des dépendances
+
+    Définition : Les modules de haut niveau ne doivent pas dépendre de modules de bas niveau. Tous deux doivent dépendre d'abstractions (interfaces ou classes abstraites). De plus, les abstractions ne doivent pas dépendre des détails, mais les détails doivent dépendre des abstractions.
+    Objectif : Cela favorise un couplage faible entre les composants et facilite la flexibilité et la testabilité du code.
+
+Encapsulation protège les données et contrôle leur accès.
+Héritage permet la réutilisation du code en créant des relations parent-enfant entre les classes.
+Polymorphisme permet à un même nom ou objet de fonctionner différemment selon le contexte.
+Abstraction permet de se concentrer sur l'essentiel tout en masquant les détails d'implémentation.
+Classe Abstraite : Un modèle partiel qu'on ne peut pas instancier, mais qui peut avoir des méthodes définies ou à définir.
+Interface : Un contrat que les classes doivent respecter, définissant seulement des méthodes sans les implémenter directement.

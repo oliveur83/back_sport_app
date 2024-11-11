@@ -1,0 +1,7 @@
+./mvnw spring-boot:run
+
+http://localhost:8080/api/
+
+mettre un docket pour la base de donnéeis sur 
+communqiuer avec stava 
+brainstorma app que je veux 
